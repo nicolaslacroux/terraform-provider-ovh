@@ -202,6 +202,18 @@ func testAccPreCheckContainerRegistryOIDC(t *testing.T) {
 	checkEnvOrSkip(t, "OVH_CLOUD_PROJECT_CONTAINERREGISTRY_OIDC_ENDPOINT_TEST")
 }
 
+// Checks that the environment variables needed for the /cloud/{cloudId}/containerregistry/{registryID}/ipRestrictions/management acceptance tests
+// are set.
+func testAccPreCheckContainerRegistryIPRestrictionManagement(t *testing.T) {
+	testAccPreCheckContainerRegistry(t)
+}
+
+// Checks that the environment variables needed for the /cloud/{cloudId}/containerregistry/{registryID}/ipRestrictions/registry acceptance tests
+// are set.
+func testAccPreCheckContainerRegistryIPRestrictionRegistry(t *testing.T) {
+	testAccPreCheckContainerRegistry(t)
+}
+
 // Checks that the environment variables needed for the /cloud/project/{projectId}/database/ acceptance tests are set.
 func testAccPreCheckCloudDatabase(t *testing.T) {
 	testAccPreCheckCloudDatabaseNoEngine(t)
