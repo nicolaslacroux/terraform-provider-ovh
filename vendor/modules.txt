@@ -233,6 +233,12 @@ github.com/hashicorp/terraform-svchost
 # github.com/hashicorp/yamux v0.1.1
 ## explicit; go 1.15
 github.com/hashicorp/yamux
+# github.com/jackc/pgio v1.0.0
+## explicit; go 1.12
+github.com/jackc/pgio
+# github.com/jackc/pgtype v1.14.1
+## explicit; go 1.13
+github.com/jackc/pgtype
 # github.com/mattn/go-colorable v0.1.12
 ## explicit; go 1.13
 github.com/mattn/go-colorable
@@ -289,7 +295,7 @@ github.com/zclconf/go-cty/cty/function/stdlib
 github.com/zclconf/go-cty/cty/gocty
 github.com/zclconf/go-cty/cty/json
 github.com/zclconf/go-cty/cty/set
-# golang.org/x/crypto v0.17.0
+# golang.org/x/crypto v0.18.0
 ## explicit; go 1.18
 golang.org/x/crypto/argon2
 golang.org/x/crypto/blake2b
@@ -314,7 +320,7 @@ golang.org/x/mod/internal/lazyregexp
 golang.org/x/mod/modfile
 golang.org/x/mod/module
 golang.org/x/mod/semver
-# golang.org/x/net v0.18.0
+# golang.org/x/net v0.20.0
 ## explicit; go 1.18
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
@@ -322,7 +328,7 @@ golang.org/x/net/http2/hpack
 golang.org/x/net/idna
 golang.org/x/net/internal/timeseries
 golang.org/x/net/trace
-# golang.org/x/sys v0.15.0
+# golang.org/x/sys v0.16.0
 ## explicit; go 1.18
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
@@ -332,6 +338,8 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
+# golang.org/x/tools v0.17.0
+## explicit; go 1.18
 # google.golang.org/appengine v1.6.8
 ## explicit; go 1.11
 google.golang.org/appengine
